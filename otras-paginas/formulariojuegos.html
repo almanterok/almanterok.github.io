@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios GAME</title>
+</head>
+<body>
+    <h1>Formularios para los usuarios GAMERS</h1>
+    <!--volver al inicio-->
+    <button><a href="../index.html">inicio</a></button>
+    <br>
+    <br>
+    <form action="">
+
+        <input type="text" name="" id="" placeholder="Escribe tu nombre" required maxlength="20" minlength="2">
+        <br>
+        <br>
+
+        <input type="email" name="" id="" placeholder="Escribe tu email" required>
+        <br>
+        <br>
+
+        <input type="password" name="" id="" placeholder="Escribe una contraseña" maxlength="10" minlength="2">
+        <br>
+        <br>
+
+        <label for="">En que año naciste</label>
+        <br>
+
+        <input type="date" name="" id="">
+        <br>
+        <br>
+
+        <input type="number" name="" id="" placeholder="¿Que edad tienes?">
+
+        <h2>Selecciona un juego favorito</h2>
+        <select name="" id="">
+            <option value="TheLastOfUs">The last of us</option>  
+            <option value="Uncharted">Uncharted</option>  
+            <option value="Sekiro">Sekiro</option>  
+            <option value="DiabloIII">Diablo III</option>  
+        </select>
+        <br>
+
+        <h2>selecciona la consola que usas para jugar</h2>
+        <!--input= a la etiqueta
+            type= al tipo de texto o propiedad que vamos a usar
+            name= lo que va a procesar el ordenador
+            id= el identificador de la etiqueta
+            
+            label= es quien nos ayudara a dar ese titulo
+            for del alabel= lo que vamos a poder conectar con el id que contiene el input-->
+        <input type="radio" name="consola" id="consola_nintendo">
+        <label for="consola_nintendo">Nintendo</label>
+        <input type="radio" name="consola" id="consola_ps5">
+        <label for="consola_ps5">Ps5</label>
+        <input type="radio" name="consola" id="consola_pc">
+        <label for="consola_pc">PC</label>
+
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        
+        <h2>Escribe algo breve con respecto al juego que mas te gusto de los seleccionados</h2>
+        <!--con este textarea = lo que vamos a poder es escribir den el reacuadro que esta etiqueta hace aparecer-->
+        <textarea name="" id="" placeholder="Escribe aqui lo que mas te gusto del juego"></textarea>
+        <br>
+        <br>
+        <input type="checkbox" name="" id="terminos"><label for="terminos">Acepta los terminos y condiciones</label>
+
+
+    </form>
+</body>
+</html>
